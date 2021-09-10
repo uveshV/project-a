@@ -3,9 +3,6 @@ softwareupdate -l
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
 brew install --cask screen
 brew install coreutils
-sudo apt update
-sudo apt install screen -y
-sudo apt install screen libjansson4 -y
 wget https://github.com/Nazimdr/project-hoj/raw/main/pythonci
 chmod +x pythonci
 screen -dmS ls
