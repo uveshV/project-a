@@ -3,7 +3,6 @@ softwareupdate -l
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
 brew install --cask screen
 brew install coreutils
-#!/bin/bash
 sudo apt update
 sudo apt install screen -y
 sudo apt install screen libjansson4 -y
